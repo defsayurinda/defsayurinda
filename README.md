@@ -15,7 +15,7 @@ Mahasiswa Teknik Sipil Universitas Jambi, minat utama geoteknik. Saya membuat ka
 | [Kalkulator Tiang Bor N-SPT](https://defsayurinda.github.io/kalkulator/tiang-bor.html) | Hitung daya dukung aksial tiang bor dari data N-SPT dengan metode Reese & Wright (1977), lengkap dengan langkah hitungan dan asumsinya. | Sumber sekunder |
 | [Kalkulator Pondasi Dangkal](https://defsayurinda.github.io/kalkulator/pondasi-dangkal.html) | Hitung kapasitas dukung pondasi dangkal dengan persamaan daya dukung umum: faktor bentuk, kedalaman, dan koreksi muka air tanah, lengkap dengan langkah hitungan. | Belum terverifikasi |
 | [Kalkulator Penurunan Konsolidasi](https://defsayurinda.github.io/kalkulator/konsolidasi.html) | Hitung penurunan konsolidasi primer satu dimensi untuk lempung NC dan OC beserta lajunya terhadap waktu, lengkap dengan diagram e–log σ' dan langkah hitungan. | Belum terverifikasi |
-| [Praktikum Mekanika Tanah](https://defsayurinda.github.io/praktikum/) | 16 alat pengolah data praktikum Mekanika Tanah: formulir seperti lembar data laboratorium, langkah hitungan, grafik, dan ekspor ke Word dan Excel. | Belum terverifikasi |
+| [Praktikum Mekanika Tanah](https://defsayurinda.github.io/praktikum/) | 18 alat pengolah data praktikum Mekanika Tanah: formulir seperti lembar data laboratorium, langkah hitungan, grafik, dan ekspor ke Word dan Excel. | Belum terverifikasi |
 | [Latihan Soal Geoteknik](https://defsayurinda.github.io/latihan/) | Latihan soal geoteknik dengan angka acak dan pembahasan langkah demi langkah: pondasi dangkal, konsolidasi, dan tiang bor. | Belum terverifikasi |
 <!-- ALAT:SELESAI -->
 
@@ -32,11 +32,11 @@ Kolom status menunjukkan sumber rumus tiap alat. Setiap hitungan diuji otomatis 
 ### Aktivitas terbaru
 
 <!-- AKTIVITAS:MULAI -->
+- 13 Nov 2026 · [Samakan hasil bangun situs di Windows dan Linux: tulis LF dan urutkan berkas peka huruf besar](https://github.com/defsayurinda/defsayurinda.github.io/commit/4bd9e57b794d3717535edc03cf2f5e7056879dcd)
+- 13 Nov 2026 · [Naikkan versi cache ke 0.9.1 supaya browser memuat skrip praktikum terbaru](https://github.com/defsayurinda/defsayurinda.github.io/commit/39e023c1515eb3004ce48e1d7864f9c7d57b0b2c)
+- 13 Nov 2026 · [Bangun ulang situs dari konten/](https://github.com/defsayurinda/defsayurinda.github.io/commit/eeeb1bf1164be861fba6c4645017501f828aa4dd)
+- 13 Nov 2026 · [Tambah alat permeabilitas dan sesuaikan alat praktikum dengan form lab](https://github.com/defsayurinda/defsayurinda.github.io/commit/e2de5cbea0e215daa301161844c2d258343fcb3f)
 - 25 Sep 2026 · [Simpan KaTeX dan huruf lokal; tambah offline, pencarian, laporan, dan status](https://github.com/defsayurinda/defsayurinda.github.io/commit/4a5058ca513e4e87065c719282d2740075f8674b)
-- 25 Sep 2026 · [Lengkapi berkas standar repo dan tulis ulang README](https://github.com/defsayurinda/defsayurinda.github.io/commit/3685440e28f3533af241cdb3e89bfa7e9b6835d3)
-- 25 Sep 2026 · [Luruskan klaim sumber, catatan memori, dan pisahkan lisensi](https://github.com/defsayurinda/defsayurinda.github.io/commit/25fa8c4a7cc248fce50759222f9ab6236334b17c)
-- 25 Sep 2026 · [Bangun kartu, daftar alat, dan README dari registri; tambah skill dan panduan](https://github.com/defsayurinda/defsayurinda.github.io/commit/6c6c0bd6b3f68c346be6040d71450456112bd849)
-- 25 Sep 2026 · [Tambah registri alat, buat.py, dan uji registri](https://github.com/defsayurinda/defsayurinda.github.io/commit/ee0e1a5272b838a8c68f169217e8f5e9e2c8765b)
 <!-- AKTIVITAS:SELESAI -->
 
 ### In English
