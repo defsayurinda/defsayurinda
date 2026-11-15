@@ -32,11 +32,11 @@ Kolom status menunjukkan sumber rumus tiap alat. Setiap hitungan diuji otomatis 
 ### Aktivitas terbaru
 
 <!-- AKTIVITAS:MULAI -->
-- 13 Nov 2026 · [Samakan hasil bangun situs di Windows dan Linux: tulis LF dan urutkan berkas peka huruf besar](https://github.com/defsayurinda/defsayurinda.github.io/commit/4bd9e57b794d3717535edc03cf2f5e7056879dcd)
-- 13 Nov 2026 · [Naikkan versi cache ke 0.9.1 supaya browser memuat skrip praktikum terbaru](https://github.com/defsayurinda/defsayurinda.github.io/commit/39e023c1515eb3004ce48e1d7864f9c7d57b0b2c)
-- 13 Nov 2026 · [Bangun ulang situs dari konten/](https://github.com/defsayurinda/defsayurinda.github.io/commit/eeeb1bf1164be861fba6c4645017501f828aa4dd)
-- 13 Nov 2026 · [Tambah alat permeabilitas dan sesuaikan alat praktikum dengan form lab](https://github.com/defsayurinda/defsayurinda.github.io/commit/e2de5cbea0e215daa301161844c2d258343fcb3f)
-- 25 Sep 2026 · [Simpan KaTeX dan huruf lokal; tambah offline, pencarian, laporan, dan status](https://github.com/defsayurinda/defsayurinda.github.io/commit/4a5058ca513e4e87065c719282d2740075f8674b)
+- 15 Nov 2026 · [Satukan gaya tabel, tambah sketsa Latihan, ajakan klik penampang, dan tautan Cari dari katalog](https://github.com/defsayurinda/defsayurinda.github.io/commit/33df13a6c2f9258b93e4730e235dc2dc880d87a4)
+- 15 Nov 2026 · [Tindak lanjut audit ulang: halaman kredit aset, judul Kalkulator, katalog ponsel ringkas, lipatan alat panjang](https://github.com/defsayurinda/defsayurinda.github.io/commit/e11da78f600022fed8c90dc8011ac9678844cc98)
+- 15 Nov 2026 · [Selesaikan katalog praktikum bercari, kartu bersketsa, dan penampang beranda interaktif](https://github.com/defsayurinda/defsayurinda.github.io/commit/b1bb3c92d768b91b9c12b49bbf6fb04f35af5859)
+- 15 Nov 2026 · [Gabungkan main (halaman Pembuat, PR #54) ke branch fase 5](https://github.com/defsayurinda/defsayurinda.github.io/commit/f5b7e0581ef7eed892374a8bf747629b1c22ee25)
+- 15 Nov 2026 · [Lengkapi halaman Pembuat dari CV: pengalaman, prestasi HATTI 2026, dan proyek GeoSR](https://github.com/defsayurinda/defsayurinda.github.io/commit/5e5316c137eb6d23728d7c96f81c55d86e0c52e0)
 <!-- AKTIVITAS:SELESAI -->
 
 ### In English
