@@ -13,10 +13,13 @@ Mahasiswa Teknik Sipil Universitas Jambi, minat utama geoteknik. Saya membuat ka
 | Alat | Isi | Status sumber |
 |---|---|---|
 | [Kalkulator Tiang Bor N-SPT](https://defsayurinda.github.io/kalkulator/tiang-bor.html) | Hitung daya dukung aksial tiang bor dari data N-SPT dengan metode Reese & Wright (1977), lengkap dengan langkah hitungan dan asumsinya. | Sumber sekunder |
+| [Kalkulator Lateral Tiang Broms](https://defsayurinda.github.io/kalkulator/broms-lateral.html) | Hitung beban lateral ultimit tiang tunggal metode Broms di tanah kohesif atau nonkohesif, kepala bebas atau terjepit, dengan moda keruntuhan, panjang peralihan, dan langkah hitungan. | Sumber sekunder |
 | [Kalkulator Pondasi Dangkal](https://defsayurinda.github.io/kalkulator/pondasi-dangkal.html) | Hitung kapasitas dukung pondasi dangkal dengan persamaan daya dukung umum: faktor bentuk, kedalaman, dan koreksi muka air tanah, lengkap dengan langkah hitungan. | Belum terverifikasi |
 | [Kalkulator Penurunan Konsolidasi](https://defsayurinda.github.io/kalkulator/konsolidasi.html) | Hitung penurunan konsolidasi primer satu dimensi untuk lempung NC dan OC beserta lajunya terhadap waktu, lengkap dengan diagram e–log σ' dan langkah hitungan. | Belum terverifikasi |
 | [Praktikum Mekanika Tanah](https://defsayurinda.github.io/praktikum/) | 18 alat pengolah data praktikum Mekanika Tanah: formulir seperti lembar data laboratorium, langkah hitungan, grafik, dan ekspor ke Word dan Excel. | Belum terverifikasi |
-| [Latihan Soal Geoteknik](https://defsayurinda.github.io/latihan/) | Latihan soal geoteknik dengan angka acak dan pembahasan langkah demi langkah: pondasi dangkal, konsolidasi, dan tiang bor. | Belum terverifikasi |
+| [Latihan Soal Geoteknik](https://defsayurinda.github.io/latihan/) | Latihan soal geoteknik dengan angka acak dan pembahasan langkah demi langkah: sifat fisik tanah, batas Atterberg, pondasi dangkal, konsolidasi, tiang bor, tiang lateral, dan penyelidikan tanah. | Belum terverifikasi |
+| [Kalkulator Korelasi N-SPT](https://defsayurinda.github.io/kalkulator/korelasi-spt.html) | Koreksi N-SPT ke N60 dan (N1)60, lalu perkiraan kepadatan relatif, sudut geser, modulus elastisitas pasir, kuat geser undrained lempung, dan kecepatan gelombang geser, dengan rujukan halaman. | Sumber sekunder |
+| [Kalkulator Korelasi Sondir](https://defsayurinda.github.io/kalkulator/korelasi-cpt.html) | Dari qc dan fs sondir, perkiraan kepadatan relatif dan sudut geser pasir, serta kuat geser undrained, sensitivitas, OCR, rasio kompresi, dan kecepatan gelombang geser lempung, dengan rujukan halaman. | Sumber sekunder |
 <!-- ALAT:SELESAI -->
 
 Kolom status menunjukkan sumber rumus tiap alat. Setiap hitungan diuji otomatis terhadap perhitungan Python terpisah; contoh soal buku utuh belum ada untuk semua alat.
@@ -32,11 +35,11 @@ Kolom status menunjukkan sumber rumus tiap alat. Setiap hitungan diuji otomatis 
 ### Aktivitas terbaru
 
 <!-- AKTIVITAS:MULAI -->
-- 15 Nov 2026 · [Satukan gaya tabel, tambah sketsa Latihan, ajakan klik penampang, dan tautan Cari dari katalog](https://github.com/defsayurinda/defsayurinda.github.io/commit/33df13a6c2f9258b93e4730e235dc2dc880d87a4)
-- 15 Nov 2026 · [Tindak lanjut audit ulang: halaman kredit aset, judul Kalkulator, katalog ponsel ringkas, lipatan alat panjang](https://github.com/defsayurinda/defsayurinda.github.io/commit/e11da78f600022fed8c90dc8011ac9678844cc98)
-- 15 Nov 2026 · [Selesaikan katalog praktikum bercari, kartu bersketsa, dan penampang beranda interaktif](https://github.com/defsayurinda/defsayurinda.github.io/commit/b1bb3c92d768b91b9c12b49bbf6fb04f35af5859)
-- 15 Nov 2026 · [Gabungkan main (halaman Pembuat, PR #54) ke branch fase 5](https://github.com/defsayurinda/defsayurinda.github.io/commit/f5b7e0581ef7eed892374a8bf747629b1c22ee25)
-- 15 Nov 2026 · [Lengkapi halaman Pembuat dari CV: pengalaman, prestasi HATTI 2026, dan proyek GeoSR](https://github.com/defsayurinda/defsayurinda.github.io/commit/5e5316c137eb6d23728d7c96f81c55d86e0c52e0)
+- 15 Nov 2026 · [Hapus kode ilustrasi penampang lama yang tak terpakai](https://github.com/defsayurinda/defsayurinda.github.io/commit/8433f48849671c7b4452d96a20ba632021a9fb72)
+- 15 Nov 2026 · [Satukan warna lantai sampul 3D dengan kartu](https://github.com/defsayurinda/defsayurinda.github.io/commit/6cdfd4c06ec291526b92ce5851137da680082d7d)
+- 15 Nov 2026 · [Tambah sampul 3D di kartu katalog dan beranda](https://github.com/defsayurinda/defsayurinda.github.io/commit/a259e0cdb182f49ef3d97dcbd0d811b4bad9089d)
+- 15 Nov 2026 · [Tambah model 3D di keenam halaman kalkulator](https://github.com/defsayurinda/defsayurinda.github.io/commit/ad1485438929394338610654f1433129aadb969f)
+- 15 Nov 2026 · [Tambah model 3D kadar air, hidrometer, batas susut, fase, klasifikasi](https://github.com/defsayurinda/defsayurinda.github.io/commit/30924e4723fab6568b5dfbfa48501c20638b8da4)
 <!-- AKTIVITAS:SELESAI -->
 
 ### In English
