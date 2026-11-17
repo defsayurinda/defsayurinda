@@ -1,0 +1,74 @@
+<!doctype html>
+<!-- Sumber banner dan foto profil. Dirender ke PNG oleh assets/sumber/render.py (Playwright).
+     ?tema=gelap|terang  dan  ?jenis=banner|foto -->
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "Archivo"; src: url("font/archivo-latin-wdth-normal.woff2") format("woff2"); font-weight: 100 900; font-stretch: 62% 125%; }
+  @font-face { font-family: "Plus Jakarta Sans"; src: url("font/plus-jakarta-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  :root { --latar: #f1f2ec; --permukaan: #fbfbf8; --teks: #1c2427; --teks-2: #515a5b; --laterit: #a3401f; --garis: #d2d6ca;
+          --kisi-halus: rgba(29, 106, 99, .07); --kisi-tebal: rgba(29, 106, 99, .14);
+          --l1: #c8b693; --l2: #8fa89b; --l3: #b5532e; --l4: #d6b25f; --l5: #6f8189; --l6: #5e4835; --bayang: rgba(28, 36, 39, .18); }
+  :root[data-tema="gelap"] { --latar: #10181a; --permukaan: #162124; --teks: #e5e8e1; --teks-2: #a2aca6; --laterit: #ee966b; --garis: #2d3e41;
+          --kisi-halus: rgba(98, 199, 184, .05); --kisi-tebal: rgba(98, 199, 184, .1);
+          --l1: #a8966f; --l2: #6f9282; --l3: #d07148; --l4: #c19d4c; --l5: #7f949d; --l6: #8c6e52; --bayang: rgba(0, 0, 0, .5); }
+  html, body { margin: 0; }
+  body { background: var(--latar); }
+  .banner { position: relative; width: 1280px; height: 320px; overflow: hidden; color: var(--teks);
+    background:
+      radial-gradient(60% 90% at 12% 0%, color-mix(in srgb, var(--laterit) 13%, transparent), transparent 70%),
+      linear-gradient(var(--kisi-tebal) 1px, transparent 1px) 0 0 / 100% 40px,
+      linear-gradient(90deg, var(--kisi-tebal) 1px, transparent 1px) 0 0 / 40px 100%,
+      linear-gradient(var(--kisi-halus) 1px, transparent 1px) 0 0 / 100% 8px,
+      linear-gradient(90deg, var(--kisi-halus) 1px, transparent 1px) 0 0 / 8px 100%,
+      var(--latar); }
+  .teks { position: absolute; left: 72px; top: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; }
+  .asal { display: flex; align-items: center; gap: 12px; font: 600 21px/1.2 "Plus Jakarta Sans", sans-serif; color: var(--teks-2); }
+  .asal svg { width: 20px; height: 24px; }
+  h1 { margin: 12px 0 14px; font: 800 86px/.98 "Archivo", sans-serif; font-stretch: 122%; letter-spacing: -.02em; }
+  .ket { font: 600 23px/1.4 "Plus Jakarta Sans", sans-serif; color: var(--teks-2); max-width: 640px; }
+  .ket b { color: var(--laterit); font-weight: 600; }
+  .blok { position: absolute; right: 70px; top: 6px; width: 380px; height: 310px; filter: drop-shadow(14px 18px 14px var(--bayang)); }
+  .garis-bawah { position: absolute; left: 0; right: 0; bottom: 0; height: 8px;
+    background: linear-gradient(90deg, var(--l3) 0 22%, var(--l2) 22% 48%, var(--l4) 48% 66%, var(--l5) 66% 86%, var(--l6) 86%); }
+  /* Foto profil: tanda lapisan tanah di bidang persegi */
+  .foto { width: 460px; height: 460px; display: grid; place-items: center; background:
+      radial-gradient(70% 70% at 20% 10%, color-mix(in srgb, var(--laterit) 22%, transparent), transparent 70%), var(--latar); }
+  .foto svg { width: 300px; height: 300px; filter: drop-shadow(10px 14px 12px var(--bayang)); }
+</style>
+</head>
+<body>
+<div id="akar"></div>
+<script>
+  var q = new URLSearchParams(location.search);
+  document.documentElement.dataset.tema = q.get('tema') || 'terang';
+  var jenis = q.get('jenis') || 'banner';
+  // Blok tanah isometrik: tiap lapisan punya sisi atas (hanya lapisan teratas), sisi kiri terang, sisi kanan gelap.
+  function blok(lapis, lebar, tinggiTotal, cx, atas) {
+    var dx = lebar * 0.866, dy = lebar * 0.5, jumlah = lapis.reduce(function (a, l) { return a + l[1]; }, 0), y = atas + dy, s = '';
+    s += '<polygon points="' + [cx, atas, cx + dx, atas + dy, cx, atas + 2 * dy, cx - dx, atas + dy].join(' ') + '" fill="var(--' + lapis[0][0] + ')"/>';
+    s += '<polygon points="' + [cx, atas, cx + dx, atas + dy, cx, atas + 2 * dy, cx - dx, atas + dy].join(' ') + '" fill="#fff" opacity=".16"/>';
+    lapis.forEach(function (l) {
+      var t = tinggiTotal * l[1] / jumlah;
+      s += '<polygon points="' + [cx - dx, y, cx, y + dy, cx, y + dy + t, cx - dx, y + t].join(' ') + '" fill="var(--' + l[0] + ')"/>';
+      s += '<polygon points="' + [cx, y + dy, cx + dx, y, cx + dx, y + t, cx, y + dy + t].join(' ') + '" fill="var(--' + l[0] + ')"/>';
+      s += '<polygon points="' + [cx, y + dy, cx + dx, y, cx + dx, y + t, cx, y + dy + t].join(' ') + '" fill="#000" opacity=".24"/>';
+      s += '<polyline points="' + [cx - dx, y + t, cx, y + dy + t, cx + dx, y + t].join(' ') + '" fill="none" stroke="#000" stroke-opacity=".28" stroke-width="1.5"/>';
+      y += t;
+    });
+    return s;
+  }
+  var LAPIS = [['l1', 3], ['l2', 5], ['l3', 3], ['l4', 2], ['l5', 3], ['l6', 2]];
+  var tanda = '<svg viewBox="0 0 22 26"><rect width="22" height="6" rx="1" fill="var(--l3)"/><rect y="7.5" width="22" height="7" rx="1" fill="var(--l2)"/><rect y="16" width="22" height="4" rx="1" fill="var(--l4)"/><rect y="21.5" width="22" height="4.5" rx="1" fill="var(--l5)"/></svg>';
+  var akar = document.getElementById('akar');
+  if (jenis === 'foto') {
+    akar.innerHTML = '<div class="foto"><svg viewBox="0 0 300 300">' + blok(LAPIS, 118, 150, 150, 18) + '</svg></div>';
+  } else {
+    akar.innerHTML = '<div class="banner"><div class="teks"><div class="asal">' + tanda + 'Teknik Sipil, Universitas Jambi</div>' +
+      '<h1>Defsa Yurinda</h1><div class="ket">Geoteknik. Pembuat <b>GeoSR</b>, pengolah data praktikum Mekanika Tanah dan kalkulator geoteknik.</div></div>' +
+      '<svg class="blok" viewBox="0 0 380 310">' + blok(LAPIS, 150, 150, 190, 6) + '</svg><div class="garis-bawah"></div></div>';
+  }
+</script>
+</body>
+</html>
