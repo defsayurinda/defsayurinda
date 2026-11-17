@@ -16,7 +16,7 @@ import urllib.request
 from pathlib import Path
 
 # Repo situs. Ganti di sini bila repo situs pindah pemilik atau nama.
-PEMILIK, REPO = "defsayurinda", "defsayurinda.github.io"
+PEMILIK, REPO = "geosr-lab", "geosr-lab.github.io"
 MENTAH = f"https://raw.githubusercontent.com/{PEMILIK}/{REPO}/main/"
 README = Path(__file__).resolve().parents[2] / "README.md"
 STATUS = {"asli": "sumber asli", "sekunder": "sumber sekunder", "belum": "belum terverifikasi"}
