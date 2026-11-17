@@ -7,7 +7,7 @@
 
 Mahasiswa Teknik Sipil Universitas Jambi dengan minat utama geoteknik. Saya membuat **GeoSR** (Geotechnical Soil Report): pengolah data praktikum Mekanika Tanah, kalkulator geoteknik, dan latihan soal yang menampilkan langkah hitungan dan sumber rumusnya.
 
-**[Buka GeoSR](https://geosr-lab.github.io/)** · [Praktikum](https://geosr-lab.github.io/praktikum/) · [Kalkulator](https://geosr-lab.github.io/alat/) · [Latihan soal](https://geosr-lab.github.io/latihan/) · [Tentang saya](https://geosr-lab.github.io/pembuat/)
+**[Portofolio saya](https://geosr-lab.github.io/portofolio/)** · **[Buka GeoSR](https://geosr-lab.github.io/)** · [Praktikum](https://geosr-lab.github.io/praktikum/) · [Kalkulator](https://geosr-lab.github.io/alat/) · [Latihan soal](https://geosr-lab.github.io/latihan/) · [Tentang saya](https://geosr-lab.github.io/pembuat/)
 
 Klik judul di bawah untuk membuka daftarnya.
 
@@ -53,7 +53,7 @@ Kolom status menunjukkan sumber rumus tiap alat.
 <details>
 <summary><b>In English</b></summary>
 
-Civil engineering student at Universitas Jambi, Indonesia, mainly interested in geotechnical engineering. I build GeoSR: tools for soil mechanics lab data, geotechnical calculators with full step-by-step working, and practice problems. The [site](https://geosr-lab.github.io/en/) has an English home page; the tools themselves are in Indonesian.
+Civil engineering student at Universitas Jambi, Indonesia, mainly interested in geotechnical engineering. I build GeoSR: tools for soil mechanics lab data, geotechnical calculators with full step-by-step working, and practice problems. The [site](https://geosr-lab.github.io/en/) has an English home page; the tools themselves are in Indonesian. My [portfolio](https://geosr-lab.github.io/portofolio/) (Indonesian) collects competition work, calculations, numerical modelling, and field and lab experience.
 
 </details>
 
