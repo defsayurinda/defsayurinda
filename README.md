@@ -9,6 +9,8 @@ Mahasiswa Teknik Sipil Universitas Jambi dengan minat utama geoteknik. Saya memb
 
 **[Portofolio saya](https://geosr-lab.github.io/portofolio/)** · **[Buka GeoSR](https://geosr-lab.github.io/)** · [Praktikum](https://geosr-lab.github.io/praktikum/) · [Kalkulator](https://geosr-lab.github.io/alat/) · [Latihan soal](https://geosr-lab.github.io/latihan/) · [Tentang saya](https://geosr-lab.github.io/pembuat/)
 
+**Karya terbaru:** [Rumah sakit 6 lantai di tanah lunak tepi sungai](https://geosr-lab.github.io/portofolio/karya/rs-batanghari/index.html) (studi kasus perencanaan terpadu, data simulasi: tanah, struktur, pondasi, BIM, RAB, jadwal).
+
 Klik judul di bawah untuk membuka daftarnya.
 
 <details>
